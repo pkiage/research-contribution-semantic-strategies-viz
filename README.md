@@ -24,7 +24,7 @@ When done `Ctrl+C` in terminal
 
 Hint: 
 - Bulk of editing is in [data.json](https://github.com/pkiage/research-contribution/blob/master/data.json) and in vector graphic editor
-- [data.json](https://github.com/pkiage/research-contribution/blob/master/data.json) editting will help give initial SVG for further editting
+- [data.json](https://github.com/pkiage/research-contribution/blob/master/data.json) editing will help give initial SVG for further editing
 - SVG from just `npx parcel index.html`  most likely requires further editing in vector graphic editor
 
 ### Data used in Algorithmic Design
