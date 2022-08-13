@@ -1,0 +1,18 @@
+{
+  "name": "cbc",
+  "version": "1.0.0",
+  "description": "Semantic Strategies Used in Claiming Academic Contribution",
+  "main": "main.js",
+  "scripts": {
+    "build": "parcel build index.html --no-source-maps --public-url /bias-viz/"
+  },
+  "author": "pkiage",
+  "license": "MIT",
+  "dependencies": {
+    "d3": "^5.9.7",
+    "parcel": "^2.3.2"
+  },
+  "devDependencies": {
+    "cssnano": "^5.1.13"
+  }
+}

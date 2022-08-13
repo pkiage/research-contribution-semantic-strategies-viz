@@ -1,0 +1,462 @@
+{
+  "name": "Scientifically interesting",
+  "children": [
+    {
+      "name": "Revelatory Contributions",
+      "children": [
+        {
+          "name": "Assumption Challenging: Problematization",
+          "children": [
+            {
+              "name": "Contest"
+            },
+            {
+              "name": "Contrast"
+            },
+            {
+              "name": "Challenge"
+            },
+            {
+              "name": "Alternative"
+            },
+            {
+              "name": "Contest effect"
+            }
+          ]
+        },
+        {
+          "name": "Using Multiple Lenses",
+          "children": [
+            {
+              "name": "Interdisciplinary"
+            },
+            {
+              "name": "Multi-disciplinary"
+            },
+            {
+              "name": "Literature synthesis"
+            }
+          ]
+        }
+      ]
+    }, 
+    {
+      "name": "Incremental Contributions",
+      "children": [
+        {
+          "name": "Neglect Spotting",
+          "children": [
+            {
+              "name": "Rare"
+            },
+            {
+              "name": "Poor reporting"
+            },
+            {
+              "name": "Not defined/tested/examined"
+            },
+            {
+              "name": "Scarce"
+            },
+            {
+              "name": "Lack of empirical insight/mostly conceptual to date"
+            },
+            {
+              "name": "Ignored/ignores"
+            },
+            {
+              "name": "Have not been addressed"
+            },
+            {
+              "name": "Relatively unexplored"
+            },
+            {
+              "name": "Scant"
+            },
+            {
+              "name": "Understudied"
+            },
+            {
+              "name": "Little guidance"
+            },
+            {
+              "name": "Unanswered question"
+            },
+            {
+              "name": "Have paid less attention"
+            },
+            {
+              "name": "Does not show"
+            },
+            {
+              "name": "Shortage of research"
+            },
+            {
+              "name": "Gone unnoticed"
+            },
+            {
+              "name": "Missing/missed"
+            },
+            {
+              "name": "Only a few exceptions"
+            },
+            {
+              "name": "First time/look"
+            },
+            {
+              "name": "First study"
+            },
+            {
+              "name": "Not attempted"
+            },
+            {
+              "name": "Little understood"
+            },
+            {
+              "name": "Little written"
+            },
+            {
+              "name": "Only identified a [low number] of studies"
+            },
+            {
+              "name": "Paucity"
+            },
+            {
+              "name": "Lack of research"
+            },
+            {
+              "name": "Dearth"
+            },
+            {
+              "name": "Still know very little"
+            },
+            {
+              "name": "Yet to uncover"
+            },
+            {
+              "name": "Research largely silent"
+            },
+            {
+              "name": "Only scratch the surface"
+            },
+            {
+              "name": "Paid little attention"
+            },
+            {
+              "name": "Absence of work"
+            },
+            {
+              "name": "Little/limited evidence/work"
+            },
+            {
+              "name": "Unlike previous studies"
+            },
+            {
+              "name": "Not evident"
+            },
+            {
+              "name": "Non-existent"
+            },
+            {
+              "name": "Lack of focus"
+            },
+            {
+              "name": "In its infancy"
+            },
+            {
+              "name": "No studies"
+            },
+            {
+              "name": "Not yet specified"
+            },
+            {
+              "name": "Yet to be uncovered"
+            },
+            {
+              "name": "Only just begun"
+            },
+            {
+              "name": "Overlooks"
+            },
+            {
+              "name": "Relatively little attention"
+            },
+            {
+              "name": "Underutilized"
+            },
+            {
+              "name": "Not explored"
+            },
+            {
+              "name": "Still lacking/lacks"
+            },
+            {
+              "name": "Limited consideration"
+            },
+            {
+              "name": "Unrealized opportunity"
+            },
+            {
+              "name": "Insufficiently acknowledged"
+            },
+            {
+              "name": "Sparse"
+            },
+            {
+              "name": "Shortfall"
+            },
+            {
+              "name": "Needs to be elaborated further"
+            },
+            {
+              "name": "Lacuna"
+            },
+            {
+              "name": "Not found"
+            }
+          ]
+        },
+        {
+          "name": "Confusion Spotting",
+          "children": [
+            {
+              "name": "Further clarification"
+            },
+            {
+              "name": "Not firmly established"
+            },
+            {
+              "name": "Conflicting evidence/views"
+            },
+            {
+              "name": "Contradiction/contradictory"
+            },
+            {
+              "name": "Not explored systematically"
+            },
+            {
+              "name": "Remains unclear"
+            },
+            {
+              "name": "Not sufficiently conceptualised"
+            },
+            {
+              "name": "Do not agree"
+            },
+            {
+              "name": "Limited/no agreement"
+            },
+            {
+              "name": "Underdeveloped"
+            },
+            {
+              "name": "Fragmented"
+            },
+            {
+              "name": "Requires further development/investigation"
+            },
+            {
+              "name": "Controversy/controversial"
+            },
+            {
+              "name": "Inconclusive"
+            },
+            {
+              "name": "Lack of clarity"
+            },
+            {
+              "name": "Whilst some studies…others.."
+            },
+            {
+              "name": "Increasing concern"
+            },
+            {
+              "name": "Inconsistency"
+            },
+            {
+              "name": "Seek deeper understanding"
+            },
+            {
+              "name": "Modest support"
+            },
+            {
+              "name": "Dispute/disputed"
+            },
+            {
+              "name": "At odds with"
+            },
+            {
+              "name": "Disparity"
+            },
+            {
+              "name": "Few studies address"
+            },
+            {
+              "name": "Contradictory or inconsistent findings"
+            },
+            {
+              "name": "Mixed findings"
+            },
+            {
+              "name": "Literature is divided"
+            },
+            {
+              "name": "Clarify"
+            },
+            {
+              "name": "Poor understanding"
+            },
+            {
+              "name": "More complete understanding [needed]"
+            },
+            {
+              "name": "Argument"
+            },
+            {
+              "name": "Not fully understood"
+            },
+            {
+              "name": "Ongoing debate"
+            },
+            {
+              "name": "Need for deeper understanding"
+            },
+            {
+              "name": "Past studies mistakenly…"
+            },
+            {
+              "name": "Inadequately explained"
+            }
+          ]
+        }
+      ]
+    },
+    {
+    "name": "Differentiated Context Contributions",
+      "children": [
+  
+          {"name": "New Context Spotting",
+            "children":[
+              {
+                "name": "Extensions of earlier work"
+              },
+              {
+                "name": "Change of focus"
+              },
+              {
+                "name": "Different paradigm"
+              },
+              {
+                "name": "Stretches theory"
+              },
+              {
+                "name": "Patterns new to existing theory"
+              },
+              {
+                "name": "From a different side of a dyad"
+              },
+              {
+                "name": "Problem from a different agents perspective"
+              },
+              {
+                "name": "Different point of view"
+              },
+              {
+                "name": "Compliments"
+              },
+              {
+                "name": "Extends understanding"
+              },
+              {
+                "name": "Compliments previous studies"
+              },
+              {
+                "name": "Not been systematically examined"
+              },
+              {
+                "name": "Extends framework"
+              },
+              {
+                "name": "Extend extant research"
+              }
+            ]},
+            {
+              "name": "Differentiated Replication",
+              "children": [
+                {
+                  "name": "Differentiated replication"
+                }
+              ]
+            }
+        ]
+      },
+
+    {
+      "name": "Replicatory Contributions",
+        "children": [
+          {
+          "name": "Replicatory Contributions",
+          "children": [
+            {
+              "name": "Exact Replication",
+              "children": [
+                {
+                  "name": "Confirm"
+                },
+                {
+                  "name": "Confirmation"
+                }
+              ]
+            },
+            {
+              "name": "Close Replication",
+              "children": [
+                {
+                  "name": "Confirm"
+                },
+                {
+                  "name": "Confirmation"
+                }
+              ]
+            }
+          ]
+        }
+  
+        ]
+      },
+      {
+        "name": "Consolidatory Contributions",
+          "children": [
+            {
+            "name": "Systematic Reviews",
+            "children": [
+              {
+                "name": "Systematic review"
+              }
+            ]
+          },
+          {
+            "name": "Traditional Reviews",
+            "children": [
+              {
+                "name": "Narrative review"
+              },
+              {
+                "name": "Conventional review"
+              }
+            ]
+          },
+          {
+            "name": "Meta-Analysis",
+            "children": [
+              {
+                "name": "Meta-analysis"
+              }
+            ]
+          }
+    
+          ]
+        }
+]
+}
+
