@@ -1,5 +1,4 @@
 import './style.css';
-import brain from './brain.png';
 import data from './data.json';
 import * as d3 from 'd3';
 
@@ -84,20 +83,6 @@ const header = d3
     .select('.main')
     .append('h1')
     .text('Research Contribution');
-
-// place brain image
-const brainImage = d3
-    .select('.main')
-    .append('img')
-    .attr('src', brain)
-    .attr('class', 'brain-image')
-    .attr('style', () => {
-        const width = 50 * scale * (radius / (radius * 0.8));
-        const height = 40 * scale * (radius / (radius * 0.8));
-        const left = center.x - width / 2;
-        const top = center.y - height / 2;
-        return `left: ${left}px; top: ${top}px; width: ${width}px; height: ${height}px`;
-    });
 
 /*const footer = d3
     .select('.main')
