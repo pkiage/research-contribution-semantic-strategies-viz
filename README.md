@@ -148,3 +148,15 @@ nvm use v17.0.0
 - [Parcel js can't run same project on Ubuntu](https://stackoverflow.com/questions/68801380/parcel-js-cant-run-same-project-on-ubuntu)
 - [Solve - nvm: command not found error](https://bobbyhadz.com/blog/nvm-command-not-found)
 
+## Folder Structure
+
+```folder-structure       
+├── .gitignore                            ### Files and directories to ignore from git history
+├── data.json                             ### Data used in algorithmic design
+├── data.txt                              ### data.json data provided in human readable format
+├── index.html                            ### html to show SVG in browser
+├── main.js                               ### Javascript that takes i) data.json as data, ii) style.css styling, and iii) d3 library for visualization to create SVG
+├── package-lock.json                     ### [describes the exact tree that was generated after npm i](https://docs.npmjs.com/files/package-lock.json/)
+├── package.json                          ### [project metadata](https://docs.npmjs.com/cli/v8/configuring-npm/package-json) (replace description and author)
+└── style.css                             ### CSS styles for visualization
+```
