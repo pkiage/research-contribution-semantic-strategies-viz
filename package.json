@@ -4,7 +4,7 @@
   "description": "Semantic Strategies Used in Claiming Academic Contribution",
   "main": "main.js",
   "scripts": {
-    "build": "parcel build index.html --no-source-maps --public-url /bias-viz/"
+    "build": "parcel build index.html --no-source-maps"
   },
   "author": "pkiage",
   "license": "MIT",
