@@ -158,5 +158,6 @@ nvm use v17.0.0
 ├── main.js                               ### Javascript that takes i) data.json as data, ii) style.css styling, and iii) d3 library for visualization to create SVG
 ├── package-lock.json                     ### [describes the exact tree that was generated after npm i](https://docs.npmjs.com/files/package-lock.json/)
 ├── package.json                          ### [project metadata](https://docs.npmjs.com/cli/v8/configuring-npm/package-json) (replace description and author)
-└── style.css                             ### CSS styles for visualization
+├── style.css                             ### CSS styles for visualization
+└── svgexport-raw-example.svg             ### Raw export of SVG extrated from browser - edited further to improve presentation
 ```
