@@ -48,24 +48,24 @@ const center = { x: (w / 2) * 0.95, y: h / 2 };
 
 const scale = 2.3;
 
-const biasWidth = 210;
-let biasTitleWidth = 150;
+const strategyWidth = 210;
+let strategyTitleWidth = 150;
 
-const biasTitlesPos = [
-    { x: width - width / 4 + biasTitleWidth, y: height / 4 - 10 },
+const strategyTitlesPos = [
+    { x: width - width / 4 + strategyTitleWidth, y: height / 4 - 10 },
     {
-        x: width - width / 4 + biasTitleWidth + 30,
+        x: width - width / 4 + strategyTitleWidth + 30,
         y: height - height / 4 + 15
     },
-    { x: width / 4 - biasTitleWidth - 30, y: height - height / 4 },
-    { x: width / 4 - biasTitleWidth - 50, y: height / 4 - 30 }
+    { x: width / 4 - strategyTitleWidth - 30, y: height - height / 4 },
+    { x: width / 4 - strategyTitleWidth - 50, y: height / 4 - 30 }
 ];
 
 // const footerText = ``;
 
 // initialize layout items
 
-// initialize bias tree object
+// initialize strategy tree object
 const tree = d3
     .tree()
     .size([2 * Math.PI, (radius / scale) * 1.6])
@@ -108,9 +108,9 @@ function update(source) {
     // update data array to include id
     Array.from(root.children).forEach((problem, ix) => {
         problem['id'] = ix;
-        problem.children.forEach(bias => {
-            bias['id'] = ix;
-            bias.children.forEach(value => {
+        problem.children.forEach(strategy => {
+            strategy['id'] = ix;
+            strategy.children.forEach(value => {
                 value['id'] = ix;
             });
         });
@@ -209,24 +209,24 @@ function update(source) {
             return `${size.toFixed(2)}em`;
         });
 
-    d3.select('.biases').attr(
+    d3.select('.strategies').attr(
         'style',
         () => `left: ${center.x}px; top: ${center.y}px;`
     );
 
-    // insert bias text
-    const bias = d3
-        .select('.biases')
-        .selectAll('.bias')
+    // insert strategy text
+    const strategy = d3
+        .select('.strategies')
+        .selectAll('.strategy')
         .data(() => {
-            const nodesBiases = nodes
+            const nodesStrategies = nodes
                 .descendants()
                 .filter(({ depth }) => depth == 2);
-            return nodesBiases;
+            return nodesStrategies;
         })
         .enter()
         .append('div')
-        .attr('class', 'bias')
+        .attr('class', 'strategy')
         .attr('style', d => {
             const point = nodePoint(d.x, d.y, scale);
             const stringLen = d.data.name.length;
@@ -240,7 +240,7 @@ function update(source) {
 
             if (angle > 180 && angle < 360) {
                 align = 'right';
-                left = point[0] - biasWidth - 15;
+                left = point[0] - strategyWidth - 15;
             } else {
                 align = 'left';
                 left = point[0] + 15;
@@ -254,16 +254,16 @@ function update(source) {
                 top = point[1] - 8;
             }
 
-            return `left: ${left}px; top: ${top}px; text-align: ${align}; width: ${biasWidth}px;`;
+            return `left: ${left}px; top: ${top}px; text-align: ${align}; width: ${strategyWidth}px;`;
         })
         .append('span')
         .attr('class', d => `text text-${d.data.id}`)
         .text(d => d.data.name);
 
-    //   insert bias titles
-    const biasTitle = d3
+    //   insert strategy titles
+    const strategyTitle = d3
         .select('.main')
-        .selectAll('.bias-title')
+        .selectAll('.strategy-title')
         .data(() => {
             const nodeTitles = nodes
                 .descendants()
@@ -272,16 +272,16 @@ function update(source) {
         })
         .enter()
         .append('div')
-        .attr('class', d => `bias-title node-${d.data.id}`)
+        .attr('class', d => `strategy-title node-${d.data.id}`)
         .attr('style', (d, ix) => {
             const stringLen = d.data.name.length;
             if (stringLen < 20) {
-                biasTitleWidth = 90;
+                strategyTitleWidth = 90;
             } else if (stringLen > 25) {
-                biasTitleWidth = 200;
+                strategyTitleWidth = 200;
             }
 
-            return `left: ${biasTitlesPos[ix].x}px; top: ${biasTitlesPos[ix].y}px; width: ${biasTitleWidth}px;`;
+            return `left: ${strategyTitlesPos[ix].x}px; top: ${strategyTitlesPos[ix].y}px; width: ${strategyTitleWidth}px;`;
         })
         .text(d => d.data.name);
 }
